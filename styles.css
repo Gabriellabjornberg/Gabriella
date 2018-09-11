@@ -1,2 +1,29 @@
+h1{color:blue}
+header {background-color: black;}
+h2 {color:purple}
+section {
+  background-color: grey;
+padding: 30px;
+border: 10px solid black;}
+.blue {
+  background-color: blue;
+  padding: 30px;
+  border: 10px solid black;
+  display: flex;
+  justify-content: center;
+}
+.spin
+{
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  margin-top: 20px;
+  width: 30%;
+}
 
-/* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+.spin:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.spin img {
+  width: 100%
+  }
