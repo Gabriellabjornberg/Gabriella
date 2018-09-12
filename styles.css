@@ -29,13 +29,14 @@ h1{
 }
 header {
   background-color: black;
-  clear: both
+  clear: both;
+  text-align: center;
+  padding: 3%;
 }
-h2 {color:purple}
+h2 {color:white}
 section {
-  background-color: grey;
 padding: 30px;
-border: 10px solid black;}
+}
 .blue {
   background-color: blue;
   padding: 30px;
@@ -57,4 +58,17 @@ border: 10px solid black;}
 }
 .spin img {
   width: 100%
+  }
+  .box{
+    min-height: 400px;
+    height: auto;
+    background-color: grey;
+    text-align: center;
+  }
+  .background-section-1 {
+    background-image: url("images/ocean.jpg");
+    height: 500px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
